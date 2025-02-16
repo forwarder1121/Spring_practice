@@ -6,6 +6,7 @@ import java.util.List;
 import com.example.shopping.input.CartInput;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import com.example.shopping.entity.Order;
@@ -14,6 +15,7 @@ import com.example.shopping.input.CartItemInput;
 import com.example.shopping.input.OrderInput;
 import com.example.shopping.service.OrderService;
 
+@ComponentScan
 @Configuration
 public class ShoppingApplication {
    	public static void main(String[] args) {
