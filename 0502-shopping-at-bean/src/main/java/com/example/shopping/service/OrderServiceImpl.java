@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import com.example.shopping.entity.Order;
